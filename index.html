@@ -100,7 +100,6 @@
                                 <h4>
                                     <strong>Analysis and Design</strong>
                                 </h4>
-                                <!-- <p>Born into the city of lakes "Udaipur"..</p> -->
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -112,8 +111,6 @@
                                 <h4>
                                     <strong>Implementation and Testing</strong>
                                 </h4>
-                                <!-- <p>Bachelor of Technology in Computer Science & Engineering from College of Technology And Engineering, MPUAT, Udaipur, Rajasthan.</p> -->
-                                
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -138,8 +135,6 @@
                                 <h4>
                                     <strong>Maintenance</strong>
                                 </h4>
-                                <!-- <p>My CV</p> -->
-                                <!-- <a href="#" class="btn btn-light">Open <span><i class="fa fa-file-pdf-o"></i></span></a> -->
                             </div>
                         </div>
                     </div>
@@ -166,10 +161,18 @@
                         </div>
                         <div class="col-md-9 col-sm-6">
                             <div class="service-text">
-                                <p id = "analysis">Born ...</p>
-                                <p id="build">Bachelor of Technology in Computer Science & Engineering from College of Technology And Engineering, MPUAT, Udaipur, Rajasthan.</p>
-                                <p id="live">Currently Working at Tata Consultancy Services in Pune</p>
-                                <p id="main">My CV</p>
+                                <p id = "analysis">Born in Udaipur, brought up in different places and studied in many schools, I am adaptable to change.</p>
+                                <p id="build">Bachelor of Technology in Computer Science & Engineering from College of Technology And Engineering, MPUAT, Udaipur, Rajasthan. I have had a consistent academic record and successfully cleared all the tests <i class="fa fa-graduation-cap"></i>
+                                <br/>CGPA: 7.88
+                                </p>
+                                <p id="live">Currently Working at Tata Consultancy Services in Pune.
+                                <br/>    Technologies worked on: Java, jQuery, JavaScriptMVC, Spring
+                                </p>
+                                <div id="main">
+                                    <p>Its all about documentation. Here is my CV.</p>
+                                    <a href="#" class="btn btn-primary">Open <span><i class="fa fa-file-pdf-o"></i></span></a>
+                                    <br/><br/>
+                                </div>
                                 <button class="btn btn-primary" id="back">Go Back</button>
                             </div>
                         </div>
@@ -286,9 +289,10 @@
         var _this = $(this);
         var show = $("#services_click");
         show.find(".service-item").html(_this.html());
-        $("#services").hide();
+        
         show.show();
-        show.find(".service-text p").hide();
+        $("#services").hide();
+        show.find(".service-text>p, .service-text>div").hide();
         $("#"+id).show();
         $('html,body').animate({
                         scrollTop: show.offset().top
