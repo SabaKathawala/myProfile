@@ -1,4 +1,4 @@
 # myProfile
 
-Stylish Portfolio Bootstrap Theme used to create my profile.
+Stylish Portfolio Bootstrap Theme customised to My Profile Website.
 
