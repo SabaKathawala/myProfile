@@ -40,10 +40,10 @@ hr.small{max-width:100px;}
 .portfolio-item{margin-bottom:30px;}
 .img-portfolio{margin:0 auto;}
 .img-portfolio:hover{opacity:0.8;}
-.call-to-action{padding:50px 0;background:url(../img/bgfooter.jpg) no-repeat center center scroll;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;}
+.call-to-action{padding:25px 0;}
 .call-to-action .btn{margin:10px;}
 .map{height:500px;}
 @media(max-width:768px){.map{height:75%;}
 }
-footer{background:url(../img/bgfooter.jpg) no-repeat center center scroll;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;padding:50px 0;}
+footer{background:url(../img/footer_background.jpg) no-repeat center center scroll;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;padding:25px 0;}
 #hackerEarth{background:url(../img/hackerEarth.png) no-repeat center center scroll;opacity:1;vertical-align:bottom;}
